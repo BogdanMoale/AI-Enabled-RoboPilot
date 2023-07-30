@@ -148,3 +148,7 @@ Without a definite exit, the memory allocated to the vector for storing decision
 For a more robust maze-solving algorithm, it is essential to ensure that the maze has a clearly defined exit. Additionally, you may implement mechanisms to handle situations where the robot has explored the entire maze without finding an exit, allowing it to make decisions that can lead it back to previously unexplored areas or backtrack to optimize its path. This way, the robot can navigate more efficiently even in mazes without a predefined exit.
 
 
+# Demo of Maze Solving Algorithm
+https://github.com/BogdanMoale/AI-Enabled-RoboPilot/assets/140835590/af0df2dd-7b14-471a-8c75-45797d15824d
+
+
