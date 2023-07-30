@@ -1,3 +1,7 @@
+# Demo of Maze Solving Algorithm
+https://github.com/BogdanMoale/AI-Enabled-RoboPilot/assets/140835590/af0df2dd-7b14-471a-8c75-45797d15824d
+
+
 # Introduction
 
 The current project aims to create a robot that can be controlled using various algorithms, starting from certain available models. The robot is powered by two DC motors, and the algorithms are numerically implemented on an Arduino development board with an embedded microcontroller. The possible algorithms to be selected are as follows:
@@ -146,9 +150,4 @@ The algorithm described works well in a maze that has an exit represented by thr
 Without a definite exit, the memory allocated to the vector for storing decisions will eventually fill up as the robot keeps making new decisions without finding a way out. As a result, the robot's behavior may become imprecise and inefficient.
 
 For a more robust maze-solving algorithm, it is essential to ensure that the maze has a clearly defined exit. Additionally, you may implement mechanisms to handle situations where the robot has explored the entire maze without finding an exit, allowing it to make decisions that can lead it back to previously unexplored areas or backtrack to optimize its path. This way, the robot can navigate more efficiently even in mazes without a predefined exit.
-
-
-# Demo of Maze Solving Algorithm
-https://github.com/BogdanMoale/AI-Enabled-RoboPilot/assets/140835590/af0df2dd-7b14-471a-8c75-45797d15824d
-
 
