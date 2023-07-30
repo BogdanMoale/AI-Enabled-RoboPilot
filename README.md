@@ -26,11 +26,16 @@ Please note that the links that i provided is just for information, I don't own 
 ![My Image](Images/HCSR04.PNG)
 
 ## Infrared Sensors for Line Tracking
+![My Image](Images/LineTracking.PNG)
 
 ## Motor Driver
+![My Image](MotorDriver.PNG)
 
 ## Bluetooth Module HC-05
+![My Image](bluetooth.PNG)
 
 ## Servomotor
+![My Image](servomotor.PNG)
 
 ## Final
+![My Image](Final.PNG)
