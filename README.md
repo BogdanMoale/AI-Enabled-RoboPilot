@@ -23,7 +23,7 @@ Please note that the links that i provided is just for information, I don't own 
 # Connecting parts
 
 ## HC-SR04 Ultrasonic Module
-![My Image](images/HCSR04.PNG)
+![My Image](Images/HCSR04.PNG)
 
 ## Infrared Sensors for Line Tracking
 
