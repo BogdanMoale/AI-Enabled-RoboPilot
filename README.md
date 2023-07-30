@@ -29,13 +29,13 @@ Please note that the links that i provided is just for information, I don't own 
 ![My Image](Images/LineTracking.PNG)
 
 ## Motor Driver
-![My Image](MotorDriver.PNG)
+![My Image](Images/MotorDriver.PNG)
 
 ## Bluetooth Module HC-05
-![My Image](bluetooth.PNG)
+![My Image](Images/bluetooth.PNG)
 
 ## Servomotor
-![My Image](servomotor.PNG)
+![My Image](Images/servomotor.PNG)
 
 ## Final
-![My Image](Final.PNG)
+![My Image](Images/Final.PNG)
