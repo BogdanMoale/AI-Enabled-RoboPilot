@@ -149,3 +149,8 @@ For a more robust maze-solving algorithm, it is essential to ensure that the maz
 
 # Android application
 
+The robot contains multiple control algorithms, and the selection of algorithms is done using an application developed specifically for the Android platform.
+
+![My Image](Images/AndroidApp.PNG)
+Zone 1 comprises a text field (Label) where the information transmitted by the robot is displayed. This field is useful for verifying the robot's program as it allows you to see exactly which instruction from the code is being executed and where any issues may arise. Additionally, Zone 1 includes the connect button. This button establishes the connection between the smartphone and the robot using Bluetooth communication.
+
