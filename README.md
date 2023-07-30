@@ -147,10 +147,4 @@ Without a definite exit, the memory allocated to the vector for storing decision
 
 For a more robust maze-solving algorithm, it is essential to ensure that the maze has a clearly defined exit. Additionally, you may implement mechanisms to handle situations where the robot has explored the entire maze without finding an exit, allowing it to make decisions that can lead it back to previously unexplored areas or backtrack to optimize its path. This way, the robot can navigate more efficiently even in mazes without a predefined exit.
 
-# Android application
-
-The robot contains multiple control algorithms, and the selection of algorithms is done using an application developed specifically for the Android platform.
-
-![My Image](Images/AndroidApp.PNG)
-Zone 1 comprises a text field (Label) where the information transmitted by the robot is displayed. This field is useful for verifying the robot's program as it allows you to see exactly which instruction from the code is being executed and where any issues may arise. Additionally, Zone 1 includes the connect button. This button establishes the connection between the smartphone and the robot using Bluetooth communication.
 
