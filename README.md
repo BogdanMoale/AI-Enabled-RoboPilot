@@ -13,6 +13,34 @@ The current project aims to create a robot that can be controlled using various 
 * Algorithm for solving a maze. This algorithm is an extension of the trajectory tracking algorithm.
 * Algorithm for voice control.
 
+To optimize the algorithms i use PID regulator.
+
+A PID (Proportional-Integral-Derivative) regulator is a control system feedback mechanism widely used in engineering, industrial processes, and automation to maintain a desired setpoint or target value for a specific variable. It continuously calculates and adjusts an actuator's output based on the error between the setpoint and the actual value of the controlled variable, ensuring that the system remains stable and accurate.
+
+Here's a breakdown of the three components of the PID regulator:
+
+* Proportional (P) term:
+The proportional term is directly proportional to the error between the setpoint and the current value of the controlled variable. It generates an output that is a multiple of the error, which helps to drive the system towards the desired setpoint. A higher proportional gain results in a stronger response to the error, but it can also lead to overshooting or instability if set too high.
+
+* Integral (I) term:
+The integral term is responsible for eliminating any steady-state error that may persist due to disturbances or inaccuracies in the system. It integrates the accumulated error over time and adds it to the controller's output. This helps in slowly reducing the remaining error, leading to a more precise control. However, if the integral gain is set too high, it can introduce oscillations or even cause instability.
+
+* Derivative (D) term:
+The derivative term anticipates the future trend of the error by calculating its rate of change. It helps to dampen the system's response, reducing overshoot and stabilizing the system quickly. It is particularly useful in systems with fast-changing dynamics or when responding to sudden changes. However, if the derivative gain is set too high, it can amplify high-frequency noise and cause instability.
+
+The PID controller's output is calculated as follows:
+
+Output = Kp * (Error) + Ki * (∫Error dt) + Kd * (dError/dt)
+
+Where:
+
+* Kp, Ki, and Kd are the proportional, integral, and derivative gains, respectively.
+* Error is the difference between the setpoint and the current value of the controlled variable.
+* ∫Error dt represents the integral term, which is the accumulation of the error over time.
+* dError/dt represents the derivative term, which is the rate of change of the error.
+
+Tuning a PID controller involves adjusting the values of Kp, Ki, and Kd to achieve the desired balance between fast response, minimal overshoot, and stability for the specific control system. Proper tuning is essential to ensure optimal performance and prevent potential issues like oscillations or sluggish responses. There are various methods and algorithms available for tuning PID controllers, depending on the application and system dynamics.
+
 # Necessary parts
 1. Arduino Uno: https://www.robofun.ro/platforme-de-dezvoltare/arduino-uno-r3.html
 2. HC-SR04 Ultrasonic Module Detector: https://www.robofun.ro/senzori/hc-sr04-senzor-distanta-ultrasonic.html
